@@ -1,0 +1,8 @@
+version: '3'
+services:
+  selenium_chrome:
+    container_name: myapp_chrome_dev
+    image: selenium/standalone-chrome-debug:3.141.59
+    ports:
+      - 4444:4444
+      - 5900:5900
